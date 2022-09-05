@@ -158,7 +158,8 @@ return [
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
         Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
         Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
-        Sentry\SentryLaravel\SentryLaravelServiceProvider::class,
+        Sentry\Laravel\ServiceProvider::class,
+
     ],
 
     /*
@@ -216,7 +217,7 @@ return [
         'Entrust' => Zizaco\Entrust\EntrustFacade::class,
         'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
         'JWTFactory' => Tymon\JWTAuth\Facades\JWTFactory::class,
-        'Sentry' => Sentry\SentryLaravel\SentryFacade::class,
+        'Sentry' => Sentry\Laravel\Facade::class,
     ],
 
 ];
