@@ -20,7 +20,7 @@
         "spatie/laravel-medialibrary": "^3.18",
         "rap2hpoutre/laravel-log-viewer": "^0.6.1",
         "zizaco/entrust": "dev-laravel-5",
-        "sentry/sentry-laravel": "^0.7.0"
+        "sentry/sentry-laravel": "1.7.*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^2.0",
